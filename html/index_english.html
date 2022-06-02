@@ -19,16 +19,6 @@
 </head>
 <body>
 <div class="secret_box"></div>
-<div class="select_language">
-    <ul>
-        <li><div class="text_ul">LANGUAGE</div>
-            <ul>
-                <li><a href="../index.html">RUSSIAN<div class="flag_icon_1"></div></a></li>
-                <li><a href="#">ENGLISH<div class="flag_icon_2"></div></a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
 <div class="first_page" id="first_page">
     <div class="header_secret"></div>
     <header class="header">
@@ -43,6 +33,15 @@
             <a href="#price" class="header_link"><div class="box_header_link">PRICES</div></a>
             <!--                <a href="#questions" class="header_link"><div class="box_header_link">QUESTIONS</div></a>-->
             <a href="#five" class="header_link"><div class="box_header_link">CONTACTS</div></a>
+            <a href="#" class="header_link language_button"><div class="box_header_link">LANGUAGE</div></a>
+            <div class="language_block">
+                <a href="../index.html" class="lang_block_select">
+                    <div class="text_lang_link">RUSSIAN</div> <div class="img_link_lang rus_lang"></div>
+                </a>
+                <a href="index_english.html" class="lang_block_select">
+                    <div class="text_lang_link">ENGLISH</div> <div class="img_link_lang eng_lang"></div>
+                </a>
+            </div>
         </nav>
     </header>
     <div class="text_block_hello">
@@ -257,40 +256,32 @@
     </div>
 </div>
 <div class="five_page" id="five">
-    <h2 class="title_lontakt">CONTACTS</h2>
     <div class="block_contackt_forma">
         <div class="text_forma">
-            <p>YOU CAN USE THE FORM TO CONTACT OUR
-                SPECIALIST <br><br>
-                ASKING YOUR QUESTION <br><br>
-                THE ANSWER WILL COME TO THE MAIL WHICH YOU SPECIFY</p>
+            <h2 class="title_lontakt">CONTACTS</h2>
             <div class="text_cont_inf">
                 <p>
-                    ALSO YOU CAN USE OUR CONTACTS:
+                    YOU CAN USE OUR CONTACTS:
                 </p>
                 <div class="contaci_a_inf">
-                    <div class="block_inc_contact"><i class="bi bi-telephone"></i><a href="tel:+79501305137" class="contact_inf_eco">+79501305137</a></div>
-                    <div class="block_inc_contact"><i class="bi bi-envelope"></i><a href="mailto:danivel@mail.ru" class="contact_inf_eco">danivel@mail.ru</a></div>
+                    <div class="block_inc_contact">
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:+79501305137" class="contact_inf_eco">+79501305137</a>
+                    </div>
+                    <div class="block_inc_contact">
+                        <i class="bi bi-envelope"></i>
+                        <a href="mailto:danivel@mail.ru" class="contact_inf_eco">danivel@mail.ru</a>
+                    </div>
+                </div>
+                <div class="text_kontakt_phone">
+                    <p>
+                        OUR SPECIALISTS ARE ALWAYS READY TO ANSWER YOUR QUESTIONS!
+                    </p>
                 </div>
             </div>
         </div>
         <div class="forma_kontakt">
-            <form class="form_body" id="form" method="POST" action="sender.php">
-                <h1 class="form_title">ASK A QUESTION</h1>
-                <div class="form_item">
-                    <label for="forName" class="form_label">YOUR NAME:</label>
-                    <input type="text" id="forName" name="name" class="form_input" placeholder="Youre Name" required>
-                </div>
-                <div class="form_item">
-                    <label for="forEmail" class="form_label">YOUR EMAIL:</label>
-                    <input type="email" id="forEmail" name="email" class="form_input" placeholder="Youre Email" required>
-                </div>
-                <div class="form_item">
-                    <label for="forMessage" class="form_label">MESSAGE:</label>
-                    <textarea name="message" id="forMessage" class="form_input" placeholder="Youre Quastion" required></textarea>
-                </div>
-                <button class="form_button" type="submit">SEND</button>
-            </form>
+            <div class="image_kontakt"></div>
         </div>
     </div>
 </div>
