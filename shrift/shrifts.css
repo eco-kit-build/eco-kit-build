@@ -1,0 +1,12 @@
+@font-face {
+    font-family: number1;
+    src: url(".././shrift/comfortaa-5.ttf") format('truetype');
+}
+@font-face {
+    font-family: number2;
+    src: url(".././shrift/Raleway-Black.ttf") format('truetype');
+}
+@font-face {
+    font-family: number4;
+    src: url(".././shrift/raleway-v22-cyrillic-300.woff2") format('woff2');
+}
