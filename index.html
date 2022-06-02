@@ -19,16 +19,6 @@
 </head>
 <body>
 <div class="secret_box"></div>
-<div class="select_language">
-    <ul>
-        <li><div class="text_ul">ВЫБРАТЬ ЯЗЫК</div>
-            <ul>
-                <li><a href="index.html">RUSSIAN<div class="flag_icon_1"></div></a></li>
-                <li><a href="./html/index_english.html">ENGLISH<div class="flag_icon_2"></div></a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
     <div class="first_page" id="first_page">
         <div class="header_secret"></div>
         <header class="header">
@@ -43,6 +33,15 @@
                 <a href="#price" class="header_link"><div class="box_header_link">ЦЕНЫ</div></a>
 <!--                <a href="#questions" class="header_link"><div class="box_header_link">ВОПРОСЫ</div></a>-->
                 <a href="#five" class="header_link"><div class="box_header_link">КОНТАКТЫ</div></a>
+                <a href="#" class="header_link language_button"><div class="box_header_link">ЯЗЫК</div></a>
+                <div class="language_block">
+                    <a href="index.html" class="lang_block_select">
+                        <div class="text_lang_link">RUSSIAN</div> <div class="img_link_lang rus_lang"></div>
+                    </a>
+                    <a href="./html/index_english.html" class="lang_block_select">
+                        <div class="text_lang_link">ENGLISH</div> <div class="img_link_lang eng_lang"></div>
+                    </a>
+                </div>
             </nav>
         </header>
         <div class="text_block_hello">
@@ -257,40 +256,32 @@
     </div>
 </div>
 <div class="five_page" id="five">
-    <h2 class="title_lontakt">КОНТАКТЫ</h2>
     <div class="block_contackt_forma">
         <div class="text_forma">
-            <p>ВЫ МОЖЕТЕ ИСПОЛЬЗОВАТЬ ФОРМУ, ЧТОБЫ СВЯЗАТЬСЯ С НАШИМ
-            СПЕЦИАЛИСТОМ <br><br>
-            ЗАДАВ ИНТЕРЕСУЮЩИЙ ВАС ВОПРОС <br><br>
-            ОТВЕТ ВАМ ПРИДЕТ НА ПОЧТУ КОТОРУЮ ВЫ УКАЖИТЕ</p>
+            <h2 class="title_lontakt">КОНТАКТЫ</h2>
             <div class="text_cont_inf">
                 <p>
-                    ТАК ЖЕ ВЫ МОЖЕТЕ ВОСПОЛЬЗОВАТЬСЯ НАШИМИ КОНТАКТАМИ:
+                    ВЫ МОЖЕТЕ ВОСПОЛЬЗОВАТЬСЯ НАШИМИ КОНТАКТАМИ:
                 </p>
                 <div class="contaci_a_inf">
-                    <div class="block_inc_contact"><i class="bi bi-telephone"></i><a href="tel:+79501305137" class="contact_inf_eco">+79501305137</a></div>
-                    <div class="block_inc_contact"><i class="bi bi-envelope"></i><a href="mailto:danivel@mail.ru" class="contact_inf_eco">danivel@mail.ru</a></div>
+                    <div class="block_inc_contact">
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:+79501305137" class="contact_inf_eco">+79501305137</a>
+                    </div>
+                    <div class="block_inc_contact">
+                        <i class="bi bi-envelope"></i>
+                        <a href="mailto:danivel@mail.ru" class="contact_inf_eco">danivel@mail.ru</a>
+                    </div>
+                </div>
+                <div class="text_kontakt_phone">
+                    <p>
+                        НАШИ СПЕЦИАЛИСТЫ, ВСЕГДА ГОТОВЫ ОТВЕТИТЬ НА ИНТЕРЕСУЮЩИЕ ВАС ВОПРОСЫ!
+                    </p>
                 </div>
             </div>
         </div>
         <div class="forma_kontakt">
-            <form action="https://eco-kit-build.github.io/ru_php/" class="form_body" id="form" method="POST">
-                <h1 class="form_title">ЗАДАТЬ ВОПРОС</h1>
-                <div class="form_item">
-                    <label for="forName" class="form_label">ВАШЕ ИМЯ:</label>
-                    <input type="text" id="forName" name="name" class="form_input" required>
-                </div>
-                <div class="form_item">
-                    <label for="forEmail" class="form_label">ВАША ЭЛЕКТРОННАЯ ПОЧТА:</label>
-                    <input type="email" id="forEmail" name="email" class="form_input" required>
-                </div>
-                <div class="form_item">
-                    <label for="forMessage" class="form_label">СООБЩЕНИЕ:</label>
-                    <textarea name="message" id="forMessage" class="form_input" required></textarea>
-                </div>
-                <button class="form_button" type="submit">ОТПРАВИТЬ</button>
-            </form>
+            <div class="image_kontakt"></div>
         </div>
     </div>
 </div>
