@@ -1,0 +1,70 @@
+.select_language{
+    display: flex;
+    width: 15%;
+    position: fixed;
+    top: 7vh;
+    z-index: 99;
+    margin-left: 88%;
+}
+.select_language ul{
+    text-align: center;
+    list-style: none;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+.text_ul{
+    text-align: center;
+    padding: 9px;
+    border: 1px white solid;
+    background-color: black;
+    cursor: pointer;
+}
+.select_language > ul > li{
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.select_language ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.select_language ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    transition: all .4s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+}
+.flag_icon_1{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././images/russia.png");
+    background-size: cover;
+}
+.flag_icon_2{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././images/united-states.png");
+    background-size: cover;
+}
+.select_language ul li a:hover{
+    background-color: #6c0530;
+}
+.select_language ul ul{
+    display: none;
+    position: absolute;
+    padding: 0;
+}
+.select_language ul ul li{
+    margin-top: 0;
+    display: flex;
+
+}
+.select_language ul li:hover ul{
+    display: block;
+}
